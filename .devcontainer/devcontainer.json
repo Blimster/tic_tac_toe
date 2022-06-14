@@ -1,9 +1,10 @@
 {
-    "image": "dart:stable",
-    "forwardPorts": [3000],
+    "build": { "dockerfile": "Dockerfile" },
     "customizations": {
       "vscode": {
-        "extensions": ["Dart-Code.dart-code"]
+        "extensions": [
+          "Dart-Code.dart-code", 
+          "ms-azuretools.vscode-docker"]
       }
     }
   }
