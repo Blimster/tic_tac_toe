@@ -1,1 +1,1 @@
-# tic_tac_toe
+An absolute bare-bones web app.
