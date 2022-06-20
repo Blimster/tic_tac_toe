@@ -5,10 +5,53 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  background-color: rgb(36 37 40);
+  color: #00adff;
+  font-family: cursive, sans-serif;
+  font-size: 40px;
 }
 
-#output {
-  padding: 20px;
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accent {
+  color: white;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  cursor: pointer;
+  border-collapse: collapse;
   text-align: center;
+}
+
+td.vert-center {
+  border-left: 5px solid #00adff;
+  border-right: 5px solid #00adff;
+}
+
+td.horz-center {
+  border-top: 5px solid #00adff;
+  border-bottom: 5px solid #00adff;
+}
+
+.newGame {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.newGame:hover {
+  text-decoration: underline;
 }
