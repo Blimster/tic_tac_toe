@@ -6,5 +6,18 @@
           "Dart-Code.dart-code", 
           "ms-azuretools.vscode-docker"]
       }
+    },
+    "postCreateCommand": "dart pub get",
+    "forwardPorts": [6080],
+    "portsAttributes": {
+      "6080": {
+        "label": "desktop"
+      }
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/desktop-lite:1": {
+        "password": "noPassword",
+        "webPort": "6080"
+      }
     }
   }
